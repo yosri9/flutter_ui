@@ -12,6 +12,7 @@ class ProfileProvider {
       following: 364,
       followers: 2318,
       friends: 25,
+
     );
   }
 }
