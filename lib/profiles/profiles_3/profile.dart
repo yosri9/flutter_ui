@@ -310,7 +310,7 @@ class _Profile3State extends State<Profile3> {
         scrollDirection: Axis.horizontal,
         children: List.generate(25, (index){
           return Padding(
-            padding: EdgeInsets.only(left: 16,right: 8),
+            padding: EdgeInsets.only(left: 4,right: 8),
             child: Container(
               width: 50,
               height: 50,
