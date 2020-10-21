@@ -30,6 +30,11 @@ class _Profile5State extends State<Profile5> with SingleTickerProviderStateMixin
     });
     super.initState();
   }
+  @override
+  void dispose() {
+    _tabController.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -152,7 +157,7 @@ class _Profile5State extends State<Profile5> with SingleTickerProviderStateMixin
     return Column(
       children: <Widget>[
         Container(
-          padding: EdgeInsets.only(top: 6),
+          padding: EdgeInsets.only(top: 15),
           decoration: BoxDecoration(
             border: Border(
               top: BorderSide(color: Colors.grey.shade200),
