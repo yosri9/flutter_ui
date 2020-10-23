@@ -49,6 +49,7 @@ flutter:
   assets:
     - assets/profiles/
     - assets/shared/
+    - assets/registration/
 
 
   # fonts:
